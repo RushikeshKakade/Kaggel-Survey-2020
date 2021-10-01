@@ -6,7 +6,33 @@
 # Our goal :
 
 - In this competition we were given the data of the annual survey that Kaggle conducts every year and we were asked to explore this data and come up with some conclusions that might be unique and wouldn't be visible if we just glanced through the data.  
-- I performed EDA on the data on features like - Age of a person, the country they live in, The Language they use to code, the IDEs they preder, their job titles and much more. After exploration we were able to come up with some conclusions which i have mentioned at the end of my notebook.  
+- I performed EDA on the data on features like - Age of a person, the country they live in, The Language they use to code, the IDEs they preder, their job titles and much more. After exploration we were able to come up with some conclusions which i have mentioned at the end of my notebook.
+
+# Data
+## Main Data:
+- kaggle_survey_2020_responses.csv: 39+ questions and 20,036 responses
+Responses to multiple choice questions (only a single choice can be selected) were recorded in individual columns. Responses to multiple selection questions (multiple choices can be selected) were split into multiple columns (with one column per answer choice).
+
+## Supplementary Data:
+- kaggle_survey_2020_answer_choices.pdf: list of answer choices for every question. With footnotes describing which questions were asked to which respondents.
+- kaggle_survey_2020_methodology.pdf: a description of how the survey was conducted. You can ask additional questions by posting in the pinned Q&A thread.
+
+## Cleaned and Transformed Data:
+After cleaning, transforming and splitting the provided data(kaggle_survey_2020_responses.csv), we get 4 seperate DataFrames, namely:
+
+- 1.questions: Questions asked in the survey
+- 2.response: Responses entered by the respondents
+- 3.professionals: Responses by professional respondents
+- 4.non professionals: Responses by non-professional respondents
+
+According to the Survey Methodology provided with the Data, a respondent can be categorised as `Non Professional` if the respondent is either a student or unemployed or has never spent money on cloud services.
+
+## Tecnologies Used:
+- Python
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn 
 
 # Few Results and Observations :
 
