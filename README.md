@@ -1,4 +1,4 @@
-# Kaggel-Survey-2020
+# Kaggle-Survey-2020
 
 # Kaggle-Survey-2020-Commpetition :
 - The code in this Repo is submission for the annual Kaggle ML &amp; DS survey Competition.
